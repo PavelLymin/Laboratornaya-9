@@ -14,14 +14,15 @@ namespace Laboratornaya_9
         {
             name = Name;
         }
-        public Dictionary<Discipline, int> Practices { get; set; }
 
-        public Dictionary<Discipline, int> FinalControll { get; set; }
-
-        public Student() 
+        public Student()
         {
             Practices = new Dictionary<Discipline, int>();
             FinalControll = new Dictionary<Discipline, int>();
         }
+
+        public Dictionary<Discipline, int> Practices { get; set; }
+
+        public Dictionary<Discipline, int> FinalControll { get; set; }
     }
 }

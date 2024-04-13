@@ -8,7 +8,6 @@ namespace Laboratornaya_9
 {
     public class MathematicalAnalysis : Discipline, IHaveFinalControll
     {
-        //public new string NameDiscipline { get; set; }
         public MathematicalAnalysis(string nameDiscipline)
         {
             NameDiscipline = nameDiscipline;

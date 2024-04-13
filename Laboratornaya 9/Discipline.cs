@@ -10,7 +10,7 @@ namespace Laboratornaya_9
     {
         public string NameDiscipline { get; set; }
 
-        public Student student { get; set; } /*Агрегация*/
+        public Student student { get; set; } 
 
         public abstract string Check(Student student);
 
